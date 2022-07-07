@@ -1,5 +1,5 @@
 {
-  "name": "jimhd",
+  "name": "@jimhd/adder",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -8,6 +8,10 @@
     "jest:watch": "npm run jest --watchAll",
     "lint": "eslint . --ext .js",
     "test": "npm run lint && npm run jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/JimHD-ai/adder-test"
   },
   "type": "module",
   "devDependencies": {
